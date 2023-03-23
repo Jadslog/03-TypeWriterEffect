@@ -43,16 +43,47 @@ body {
     background-color: #fff;    
 }
 
+.typewriter-effect p::after {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 110%;
+    background-color: #000;
+    width: 2px;
+    position: absolute;
+}
+
+@keyframes blinkAnim {
+    100% {
+        opacity: 0;
+    }
+}
+
 .typewriter-effect p.text-1::before {
-    animation: typeAnim 2s steps(8) alternate;
+    animation: typeAnim 2s steps(8) infinite alternate;
+}
+
+.typewriter-effect p.text-1::after {
+    animation: typeAnim 2s steps(8) infinite alternate,
+    blinkAnim 1000ms linear infinite;
 }
 
 .typewriter-effect p.text-2::before {
-    animation: typeAnim 2s steps(13) alternate;
+    animation: typeAnim 2s steps(13) infinite alternate;
+}
+
+.typewriter-effect p.text-2::after {
+    animation: typeAnim 2s steps(13) infinite alternate,
+    blinkAnim 1000ms linear infinite;
 }
 
 .typewriter-effect p.text-3::before {
-    animation: typeAnim 2s steps(12) alternate;
+    animation: typeAnim 2s steps(12) infinite alternate;
+}
+
+.typewriter-effect p.text-3::after {
+    animation: typeAnim 2s steps(12) infinite alternate,
+    blinkAnim 1000ms linear infinite;
 }
 
 @keyframes typeAnim {
