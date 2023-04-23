@@ -108,6 +108,7 @@
   
   .typewriter-effect-container-p03 {
     margin-top: 50px;
+    width: 310px;
   }
     
   .typewriter-effect-container-p03 h2 {
@@ -117,11 +118,8 @@
   .typewriter-effect-container-p03 .typewriter-effect p {
     	font-size: 1.9em;
   }
-  
 }
-
 </style>
-
 
 <div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen="" class="BLOG_video_class" frameborder="0" height="420em" src="https://www.youtube.com/embed/6-f1Pnjq35s" width="100%" youtube-src-id="6-f1Pnjq35s"></iframe>
   <br />
@@ -137,12 +135,8 @@
         </span>
     </div> 
   
-  
-
-
 <div style="text-align: left;">Link to project.<br /><a href="https://github.com/Jadslog/03-TypeWriterEffect" target="_blank">https://github.com/Jadslog/03-TypeWriterEffect</a></div></div><div style="text-align: left;"><br />Links to References.<br /><a href="https://www.youtube.com/watch?v=6-f1Pnjq35s" target="_blank">https://www.youtube.com/watch?v=6-f1Pnjq35s</a><br /><a href="https://www.youtube.com/watch?v=gFEb0Un-ARU" target="_blank">https://www.youtube.com/watch?v=gFEb0Un-ARU</a><br /><a href="https://www.youtube.com/watch?v=QOsCn9VU9pc" target="_blank">https://www.youtube.com/watch?v=QOsCn9VU9pc</a></div><div style="text-align: left;"><a href="https://github.com/livebloggerofficial/Typewriter-Effect" target="_blank">https://github.com/livebloggerofficial/Typewriter-Effect</a></div><div style="text-align: left;"><br /></div>
   
-
 <script>
  const textAll = document.querySelectorAll(".typewriter-effect p");
  let textNo = 1;
@@ -165,6 +159,4 @@ setInterval(()=>{
     textAll[textNo].classList.add("active");
     textNo++;
 }, 4000)
- 
-
 </script>
