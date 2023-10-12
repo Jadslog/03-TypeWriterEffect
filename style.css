@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 650px) {
+    .typewriter-effect-container {
+            background: green;
+    }
+    
     .typewriter-effect-container h2 {
         background: green;
         font-size: 20px;
