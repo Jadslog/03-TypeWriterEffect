@@ -95,3 +95,13 @@
 .typewriter-effect p.active {
     opacity: 1;
 }
+
+@media (max-width: 650px) {
+    .typewriter-effect-container h2 {
+        font-size: 20px;
+    }
+
+    .typewriter-effect p {
+        font-size: 30px;
+    }
+}
