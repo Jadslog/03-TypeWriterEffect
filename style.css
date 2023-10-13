@@ -66,20 +66,20 @@
 }
 
 .typewriter-effect p.text-2::before {
-    animation: typeAnim 2s steps(13) infinite alternate;
+    animation: typeAnim 2s steps(9) infinite alternate;
 }
 
 .typewriter-effect p.text-2::after {
-    animation: typeAnim 2s steps(13) infinite alternate,
+    animation: typeAnim 2s steps(9) infinite alternate,
     blinkAnim 1000ms linear infinite;
 }
 
 .typewriter-effect p.text-3::before {
-    animation: typeAnim 2s steps(12) infinite alternate;
+    animation: typeAnim 2s steps(10) infinite alternate;
 }
 
 .typewriter-effect p.text-3::after {
-    animation: typeAnim 2s steps(12) infinite alternate,
+    animation: typeAnim 2s steps(10) infinite alternate,
     blinkAnim 1000ms linear infinite;
 }
 
@@ -102,10 +102,10 @@
     }
     
     .typewriter-effect-container h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .typewriter-effect p {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
